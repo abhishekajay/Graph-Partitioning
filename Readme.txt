@@ -1,5 +1,5 @@
 =============================================
-	description 
+	Description 
 ==============================================
 
 (1). Experiments are being done on random graphs of sizes 20,30,...200. The graphs given as  input to the algorithm are stored as csv file with format node1,node2,weight.
