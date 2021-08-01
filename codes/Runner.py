@@ -3,6 +3,9 @@
 # Running this program requires some arguments
 # argument 1 : The name of the file stores as graph eg: python3 Runner.py edges.csv 20 0.1
 
+"""
+@author: Abhishek Ajayakumar
+"""
 import sys
 import algo as m8
 import kalgo as kl
