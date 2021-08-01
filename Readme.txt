@@ -9,6 +9,13 @@
 (4). If you want to test the algorithm on a particular graph for eg: graph.csv with the format of graph.csv as given above in step 1, use the cammand python3 Runner.py graph.csv then output will be fiedler values of heuristic, kernighan-Lin and spectral bisection algorithms. 
 (5). Order of complexity figure and profiling results are present in ./codes/
 
+Implementation:
+
+The above algorithm is implemented in python using the joblib
+package in python for parallelization of the for loop with backend
+as "multiprocessing" and the networkx package for graphs. All the
+simulations are done on an AMD Ryzen Threadripper 1920X 12-Core
+Processor.
 
 References:
 [1]. Schulz C. 2013 High quality graph partitioning.PhD thesis, Karl-
