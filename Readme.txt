@@ -7,7 +7,7 @@
 (3). The heuristic algorithm uses the joblib package for parallelisation and one can disable it by setting nproc in ./codes/algo.py line 287 to 1 
 (3). Results of each experiment is stored in the corresponding result directory as an .html file. for eg: results of case study of 20node erdos-reyni random graph is stored in  ./20nodes/result/ as 20nodesp=0.5.html  
 (4). If you want to test the algorithm on a particular graph for eg: graph.csv with the format of graph.csv as given above in step 1, use the cammand python3 Runner.py graph.csv then output will be fiedler values of heuristic, kernighan-Lin and spectral bisection algorithms. 
-(5). Profiling results are included for completeness indicating the bottle necks.
+(5). Profiling results are included ./codes/ for completeness indicating the bottle necks.
 
 Implementation:
 
