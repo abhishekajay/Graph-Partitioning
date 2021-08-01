@@ -5,7 +5,9 @@ import sys
 import algo as m8 
 import time
 #%matplotlib inline
-
+"""
+@author: Abhishek Ajayakumar
+"""
 plt.rcParams['figure.figsize'] = (5,4)
 def plott(g0, g1,):
     plt.subplot(1,2,1)
