@@ -4,7 +4,7 @@
 
 (1). Experiments are being done on random graphs of sizes 20,30,...200. The graphs given as  input to the algorithm are stored as csv file with format node1,node2,weight.
 (2). Data files for each node are stored in the ./node/data/ for eg: Graphs for 20node graphs are stored in ./20nodes/data/   
-(3). The heuristic algorithm uses the joblib package for parallelisation and one can disable it by setting nproc in ./codes/algo.py line 287 to 1 
+(3). The heuristic algorithm uses the joblib package for parallelization and one can run this code in serial mode by setting nproc in ./codes/algo.py line 287 to 1 
 (3). Results of each experiment is stored in the corresponding result directory as an .html file. for eg: results of case study of 20node erdos-reyni random graph is stored in  ./20nodes/result/ as 20nodesp=0.5.html  
 (4). If you want to test the algorithm on a particular graph for eg: graph.csv with the format of graph.csv as given above in step 1, use the cammand python3 Runner.py graph.csv then output will be fiedler values of heuristic, kernighan-Lin and spectral bisection algorithms. 
 (5). Profiling results are included ./codes/ for completeness indicating the bottle necks.
